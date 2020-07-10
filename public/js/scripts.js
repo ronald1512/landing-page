@@ -35,10 +35,10 @@
   var navbarCollapse = function() {
     var nav=$("#mainNav");
     if(nav.length){
-      if ($("#mainNav").offset().top > 100) {
-        $("#mainNav").addClass("navbar-scrolled");
+      if (nav.offset().top > 100) {
+        nav.addClass("navbar-scrolled");
       } else {
-        $("#mainNav").removeClass("navbar-scrolled");
+        nav.removeClass("navbar-scrolled");
       }
     }
   };
