@@ -34,7 +34,7 @@ class Services extends Component {
                         <div className="col-lg-3 col-md-6 text-center">
                             <div className="mt-5">
                                 <i className="fas fa-4x fa-heart text-primary mb-4" />
-                                <h3 className="h4 mb-2">Limpliza constante</h3>
+                                <h3 className="h4 mb-2">Limpieza constante</h3>
                                 <p className="text-muted mb-0">Las unidades son sanitizadas por dentro y por fuera antes del abordaje de pasajeros. </p>
                             </div>
                         </div>
