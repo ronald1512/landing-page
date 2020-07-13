@@ -17,7 +17,8 @@ class Contact extends Component{
                 <div className="row">
                   <div className="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
                     <i className="fab fa-whatsapp fa-3x mb-3 text-muted" />
-                    <div>+502 3015-0785</div>
+                    <a className="d-block" href="tel:30150785">+502 3015-0785</a>
+                    {/*<div>+502 3015-0785</div>*/}
                   </div>
                   <div className="col-lg-4 mr-auto text-center">
                     <i className="fas fa-envelope fa-3x mb-3 text-muted" />
