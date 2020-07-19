@@ -9,14 +9,14 @@ import Contact from './Components/Contact';
 class App extends Component{
   render(){
     return (
-      <div className="App">
+      <header>
         <Navbar />
         <Masthead />
         <About />
         <Services />
         <Portfolio />
         <Contact />
-      </div>
+      </header>
     );
   }
 }
